@@ -12,6 +12,8 @@ public class Practica1 {
 		int numero6=0;
 		int numero7=0;
 		int numero8=0;
+		int hora=0;
+		int minutos=0;
 		System.out.println("Elija el Nivel de los problemas que desea ver 1 o 2");
 numero1 = s.nextInt();
 if(numero1 == 1){
@@ -51,6 +53,18 @@ if(numero1 == 1){
 		else
 		System.out.println("los numeros no estan en el rango");
 	
+}
+	else if(numero2==3){
+	System.out.println("Ingrese la hora en notacion de 24 horas: ");
+	hora = s.nextInt();
+	System.out.println("Ingrese los minutos");
+	if(hora>=1 && hora<=12){
+		System.out.println(hora+minutos+"AM");
+	}
+	else if(hora>12 && hora<=24){
+		
+		
+	}
 }
 	}
 else if(numero1==2)
