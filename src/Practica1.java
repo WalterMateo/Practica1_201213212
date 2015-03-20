@@ -15,7 +15,12 @@ public class Practica1 {
 		int hora=0;
 		int minutos=0;
 		int numero9=0;
-		
+		float numero10=0;
+		float numero11=0;
+		char letra;
+		double numerox;
+		char letra2;
+		int numero12=0;
 		System.out.println("Elija el Nivel de los problemas que desea ver 1 o 2");
 numero1 = s.nextInt();
 if(numero1 == 1){
@@ -32,6 +37,7 @@ if(numero1 == 1){
 		numero6 = s.nextInt();
 		numero7 = s.nextInt();
 		numero8 = s.nextInt();
+		
 		if(numero3 <= 100 && numero4 <=100 && numero5 <=100 && numero6 <=100 && numero7 <=100 && numero8 <=100 && numero8 >=0 && numero7 >=0 && numero6 >=0 && numero5 >=0 && numero4 >=0 && numero3 >=0  ){
 			int suma=(numero3 + numero4 + numero5+ numero6+ numero7 + numero8);
 			int media=(suma/6);
@@ -120,28 +126,75 @@ if(numero1 == 1){
 	}
 	else
 		System.out.println("Los numero ingresados son invalidos");
-	
-}
+	}
+
 	else if(numero2==4){
-		System.out.println("Ingrese C, U, T");
-		String letra =s.nextLine(); 
-		if(letra==c){
-			
+		System.out.print("Ingrese en mayuscula; C para determinar el area,perimetro y radio de un circulo\n                      U para determinar el area y perimetro de un cuadrado\n                      T para determinar el area, perimetro y altura de un triangulo equilatero\n");
+		letra = s.next().charAt(0);
+		
+		if(letra=='C'){
+			System.out.println("Ingrese el diametro del circulo");
+			numerox= s.nextDouble();
+			System.out.print("El area del circulo es: "+(3.1415926535)*(numerox/2)*(numerox/2)+"\nEl perimetro del circulo es: "+(3.1415926535)*(numerox)+"\nEl Radio del circulo es: "+(numerox/2));
 		}
+		else if(letra=='U'){
+			System.out.println("Ingrese un lado del cuadrado");
+			numerox=s.nextDouble();
+			System.out.print("El area del cuadrado es: "+(numerox*numerox)+"\nEl perimetro del cuaadrado es: "+(numerox*4));
+		}
+		else if(letra=='T'){
+			System.out.println("Ingrese la base del triangulo Equilatero");
+			numerox=s.nextDouble();
+			System.out.print("El area del triangulo es: "+((Math.sqrt(3))/4)*((numerox*2)*(numerox*2))+"\nEl perimetro del triangulo es: "+(3*(numerox*2))+"\nLa altura del triangulo es: "+(Math.sqrt(((2*numerox)*(2*numerox))-(numerox*numerox))));
+		}
+		else
+			System.out.println("Las letras no coinciden con ninguna de las descritas");
+	}
+	else if(numero2==5){
 		
 	}
-	}
-else if(numero1==2)
+}
+else if(numero1==2){
 System.out.println("Escoja un numero del 6 al 15 ");
 	numero9= s.nextInt();
 if(numero9==6){
-	System.out.println("ingrese dos numeros y un caracter");
+	System.out.println("Ingrese dos numeros y uno de estos caracteres\ns para sumar los dos numeros\nr para la resta entre los dos numeros\nm para multiplicar los dos numeros\nd para dividir los dos numeros\n");
+	numero10=s.nextInt();
+	numero11=s.nextInt();
+	letra2=s.next().charAt(0);
+	if(letra2=='s'){
+		System.out.println("La suma de los dos es; "+(numero10+numero11));
+	}
+	else if(letra2=='r'){
+		System.out.println("La resta de los dos numeros es; "+(numero10-numero11));
+	}
+	else if(letra2=='m'){
+		System.out.println("La multiplicacion de los dos numeros es; "+(numero10*numero11));
+	}
+	else if(letra2=='d'){
+		float res=(numero10/numero11);
+		System.out.println("El cociente de los dos es "+res);
+	}
+	else
+		System.out.println("Las letras no son las indicadas");
 }
-	
+else if(numero9==7){
+	System.out.println("Ingrese un numero entre 0 a 10");
+	numero12= s.nextInt();
+	if(numero12>=0 && numero12<=10){
+	for(int a=10; a>0;a--){
+		System.out.print(numero12+"*"+a+"="+ numero12*a+"\n");
+	}	
+	}
+	else
+		System.out.println("El numero no esta entre 0 y 10");
+
+}
+}
 
 else
 	System.out.println("El numero no es 1 o 2");
-		
 	}
-}
+	}
+
 
