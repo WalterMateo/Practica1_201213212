@@ -1,10 +1,9 @@
 import java.util.Scanner;
-import java.util.Random;
+
 public class Practica1 {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		Random r = new Random();
 		int numero1=0;
 		int numero2=0;
 		int numero3=0;
@@ -25,6 +24,7 @@ public class Practica1 {
 		int numero13=0;
 		int numero14=0;
 		int numeroaleatorio=1;
+		int numero15=0;
 		System.out.println("Elija el Nivel de los problemas que desea ver 1 o 2");
 numero1 = s.nextInt();
 if(numero1 == 1){
@@ -413,6 +413,33 @@ else if(numero9==8){
 	
 }
 else if(numero9==9){
+	System.out.println("Ingrese un numero de 0 hasta 1000 en aràbigo para ver el mismo numero en romano");
+	numero15=s.nextInt();
+	switch(numero15){
+	case 1: System.out.println("El numero es: "+numero15+" el numero en romano es; I");
+	break;
+	case 2: System.out.println("El numero es: "+numero15+" el numero en romano es; II");
+	break;
+	case 3: System.out.println("El numero es: "+numero15+" el numero en romano es; III");
+	break;
+	case 4: System.out.println("El numero es: "+numero15+" el numero en romano es; IV");
+	break;
+	case 5: System.out.println("El numero es: "+numero15+" el numero en romano es; V");
+	break;
+	case 6: System.out.println("El numero es: "+numero15+" el numero en romano es; VI");
+	break;
+	case 7: System.out.println("El numero es: "+numero15+" el numero en romano es; VII");
+	break;
+	case 8: System.out.println("El numero es: "+numero15+" el numero en romano es; VIII");
+	break;
+	case 9: System.out.println("El numero es: "+numero15+" el numero en romano es; IX");
+	break;
+	case 10: System.out.println("El numero es: "+numero15+" el numero en romano es; X");
+	break;
+
+
+	}
+	
 }
 else if(numero9==10){
 	
