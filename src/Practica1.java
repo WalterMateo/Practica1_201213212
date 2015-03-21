@@ -25,6 +25,7 @@ public class Practica1 {
 		int numero14=0;
 		int numeroaleatorio=1;
 		int numero15=0;
+		int numero16=0;
 		System.out.println("Elija el Nivel de los problemas que desea ver 1 o 2");
 numero1 = s.nextInt();
 if(numero1 == 1){
@@ -415,6 +416,7 @@ else if(numero9==8){
 else if(numero9==9){
 	System.out.println("Ingrese un numero de 0 hasta 1000 en aràbigo para ver el mismo numero en romano");
 	numero15=s.nextInt();
+	if(numero15>0 && numero15<100){
 	switch(numero15){
 	case 1: System.out.println("El numero es: "+numero15+" el numero en romano es; I");
 	break;
@@ -436,12 +438,207 @@ else if(numero9==9){
 	break;
 	case 10: System.out.println("El numero es: "+numero15+" el numero en romano es; X");
 	break;
-
+	case 11: System.out.println("El numero es: "+numero15+" el numero en romano es; XI");
+	break;
+	case 12: System.out.println("El numero es: "+numero15+" el numero en romano es; XII");
+	break;
+	case 13: System.out.println("El numero es: "+numero15+" el numero en romano es; XIII");
+	break;
+	case 14: System.out.println("El numero es: "+numero15+" el numero en romano es; XIV");
+	break;
+	case 15: System.out.println("El numero es: "+numero15+" el numero en romano es; XV");
+	break;
+	case 16: System.out.println("El numero es: "+numero15+" el numero en romano es; XVI");
+	break;
+	case 17: System.out.println("El numero es: "+numero15+" el numero en romano es; XVII");
+	break;
+	case 18: System.out.println("El numero es: "+numero15+" el numero en romano es; XVIII");
+	break;
+	case 19: System.out.println("El numero es: "+numero15+" el numero en romano es; XIX");
+	break;
+	case 20: System.out.println("El numero es: "+numero15+" el numero en romano es; XX");
+	break;
+	case 21: System.out.println("El numero es: "+numero15+" el numero en romano es; XXI");
+	break;
+	case 22: System.out.println("El numero es: "+numero15+" el numero en romano es; XXII");
+	break;
+	case 23: System.out.println("El numero es: "+numero15+" el numero en romano es; XXIII");
+	break;
+	case 24: System.out.println("El numero es: "+numero15+" el numero en romano es; XXIV");
+	break;
+	case 25: System.out.println("El numero es: "+numero15+" el numero en romano es; XXV");
+	break;
+	case 26: System.out.println("El numero es: "+numero15+" el numero en romano es; XXVI");
+	break;
+	case 27: System.out.println("El numero es: "+numero15+" el numero en romano es; XXVII");
+	break;
+	case 28: System.out.println("El numero es: "+numero15+" el numero en romano es; XXVIII");
+	break;
+	case 29: System.out.println("El numero es: "+numero15+" el numero en romano es; XXIX");
+	break;
+	case 30: System.out.println("El numero es: "+numero15+" el numero en romano es; XXX");
+	break;
+	case 31: System.out.println("El numero es: "+numero15+" el numero en romano es; XXXI");
+	break;
+	case 32: System.out.println("El numero es: "+numero15+" el numero en romano es; XXXII");
+	break;
+	case 33: System.out.println("El numero es: "+numero15+" el numero en romano es; XXXIII");
+	break;
+	case 34: System.out.println("El numero es: "+numero15+" el numero en romano es; XXXIV");
+	break;
+	case 35: System.out.println("El numero es: "+numero15+" el numero en romano es; XXXV");
+	break;
+	case 36: System.out.println("El numero es: "+numero15+" el numero en romano es; XXXVI");
+	break;
+	case 37: System.out.println("El numero es: "+numero15+" el numero en romano es; XXXVII");
+	break;
+	case 38: System.out.println("El numero es: "+numero15+" el numero en romano es; XXXVIII");
+	break;
+	case 39: System.out.println("El numero es: "+numero15+" el numero en romano es; XXXIX");
+	break;
+	case 40: System.out.println("El numero es: "+numero15+" el numero en romano es; XL");
+	break;
+	case 41: System.out.println("El numero es: "+numero15+" el numero en romano es; XLI");
+	break;
+	case 42: System.out.println("El numero es: "+numero15+" el numero en romano es; XLII");
+	break;
+	case 43: System.out.println("El numero es: "+numero15+" el numero en romano es; XLIII");
+	break;
+	case 44: System.out.println("El numero es: "+numero15+" el numero en romano es; XLIV");
+	break;
+	case 45: System.out.println("El numero es: "+numero15+" el numero en romano es; XLV");
+	break;
+	case 46: System.out.println("El numero es: "+numero15+" el numero en romano es; XLVI");
+	break;
+	case 47: System.out.println("El numero es: "+numero15+" el numero en romano es; XLVII");
+	break;
+	case 48: System.out.println("El numero es: "+numero15+" el numero en romano es; XLVIII");
+	break;
+	case 49: System.out.println("El numero es: "+numero15+" el numero en romano es; XLIX");
+	break;
+	case 50: System.out.println("El numero es: "+numero15+" el numero en romano es; L");
+	break;
+	case 51: System.out.println("El numero es: "+numero15+" el numero en romano es; LI");
+	break;
+	case 52: System.out.println("El numero es: "+numero15+" el numero en romano es; LII");
+	break;
+	case 53: System.out.println("El numero es: "+numero15+" el numero en romano es; LIII");
+	break;
+	case 54: System.out.println("El numero es: "+numero15+" el numero en romano es; LIV");
+	break;
+	case 55: System.out.println("El numero es: "+numero15+" el numero en romano es; LV");
+	break;
+	case 56: System.out.println("El numero es: "+numero15+" el numero en romano es; LVI");
+	break;
+	case 57: System.out.println("El numero es: "+numero15+" el numero en romano es; LVII");
+	break;
+	case 58: System.out.println("El numero es: "+numero15+" el numero en romano es; LVIII");
+	break;
+	case 59: System.out.println("El numero es: "+numero15+" el numero en romano es; LIX");
+	break;
+	case 60: System.out.println("El numero es: "+numero15+" el numero en romano es; LX");
+	break;
+	case 61: System.out.println("El numero es: "+numero15+" el numero en romano es; LXI");
+	break;
+	case 62: System.out.println("El numero es: "+numero15+" el numero en romano es; LXII");
+	break;
+	case 63: System.out.println("El numero es: "+numero15+" el numero en romano es; LXIII");
+	break;
+	case 64: System.out.println("El numero es: "+numero15+" el numero en romano es; LXIV");
+	break;
+	case 65: System.out.println("El numero es: "+numero15+" el numero en romano es; LXV");
+	break;
+	case 66: System.out.println("El numero es: "+numero15+" el numero en romano es; LXVI");
+	break;
+	case 67: System.out.println("El numero es: "+numero15+" el numero en romano es; LXVII");
+	break;
+	case 68: System.out.println("El numero es: "+numero15+" el numero en romano es; LXVIII");
+	break;
+	case 69: System.out.println("El numero es: "+numero15+" el numero en romano es; LXIX");
+	break;
+	case 70: System.out.println("El numero es: "+numero15+" el numero en romano es; LXX");
+	break;
+	case 71: System.out.println("El numero es: "+numero15+" el numero en romano es; LXXI");
+	break;
+	case 72: System.out.println("El numero es: "+numero15+" el numero en romano es; LXXII");
+	break;
+	case 73: System.out.println("El numero es: "+numero15+" el numero en romano es; LXXIII");
+	break;
+	case 74: System.out.println("El numero es: "+numero15+" el numero en romano es; LXXIV");
+	break;
+	case 75: System.out.println("El numero es: "+numero15+" el numero en romano es; LXXV");
+	break;
+	case 76: System.out.println("El numero es: "+numero15+" el numero en romano es; LXXVI");
+	break;
+	case 77: System.out.println("El numero es: "+numero15+" el numero en romano es; LXXVII");
+	break;
+	case 78: System.out.println("El numero es: "+numero15+" el numero en romano es; LXXVIII");
+	break;
+	case 79: System.out.println("El numero es: "+numero15+" el numero en romano es; LXXIX");
+	break;
+	case 80: System.out.println("El numero es: "+numero15+" el numero en romano es; LXXX");
+	break;
+	case 81: System.out.println("El numero es: "+numero15+" el numero en romano es; LXXXI");
+	break;
+	case 82: System.out.println("El numero es: "+numero15+" el numero en romano es; LXXXII");
+	break;
+	case 83: System.out.println("El numero es: "+numero15+" el numero en romano es; LXXXIII");
+	break;
+	case 84: System.out.println("El numero es: "+numero15+" el numero en romano es; LXXXIV");
+	break;
+	case 85: System.out.println("El numero es: "+numero15+" el numero en romano es; LXXXV");
+	break;
+	case 86: System.out.println("El numero es: "+numero15+" el numero en romano es; LXXXVI");
+	break;
+	case 87: System.out.println("El numero es: "+numero15+" el numero en romano es; LXXXVII");
+	break;
+	case 88: System.out.println("El numero es: "+numero15+" el numero en romano es; LXXXVIII");
+	break;
+	case 89: System.out.println("El numero es: "+numero15+" el numero en romano es; LXXXIX");
+	break;
+	case 90: System.out.println("El numero es: "+numero15+" el numero en romano es; XC");
+	break;
+	case 91: System.out.println("El numero es: "+numero15+" el numero en romano es; XCI");
+	break;
+	case 92: System.out.println("El numero es: "+numero15+" el numero en romano es; XCII");
+	break;
+	case 93: System.out.println("El numero es: "+numero15+" el numero en romano es; XCIII");
+	break;
+	case 94: System.out.println("El numero es: "+numero15+" el numero en romano es; XCIV");
+	break;
+	case 95: System.out.println("El numero es: "+numero15+" el numero en romano es; XCV");
+	break;
+	case 96: System.out.println("El numero es: "+numero15+" el numero en romano es; XCVI");
+	break;
+	case 97: System.out.println("El numero es: "+numero15+" el numero en romano es; XCVII");
+	break;
+	case 98: System.out.println("El numero es: "+numero15+" el numero en romano es; XCVIII");
+	break;
+	case 99: System.out.println("El numero es: "+numero15+" el numero en romano es; XCIX");
+	break;
 
 	}
+	}
+	else if(numero15>99 && numero15<200){
+		
+	}
+		
+	
+	
+
+	
 	
 }
 else if(numero9==10){
+	System.out.println("Ingrese un numero: ");
+	numero16=s.nextInt();
+	for(int z=1;z<=numero16;z++){
+		System.out.print("1");
+	}
+		System.out.print("\n");
+		
+	
+	
 	
 }
 else if(numero9==11){
