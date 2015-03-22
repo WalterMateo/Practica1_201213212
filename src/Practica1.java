@@ -26,10 +26,12 @@ public class Practica1 {
 		int numeroaleatorio=1;
 		int numero15=0;
 		int numero16=0;
+		int numero17=0;
+		System.out.print("El siguiente programa consta de 15 problemas los cuales se manipulan por medio de la consola de texto"+"\n"+"los problemas se dividen en 2 niveles, los primeros son menos complejos que los segundos\n");
 		System.out.println("Elija el Nivel de los problemas que desea ver 1 o 2");
 numero1 = s.nextInt();
 if(numero1 == 1){
-	System.out.println("Escoja el problema que desee del 1 al 5 ");
+	System.out.println("Escoja el numero del problema que desee del 1 al 5: ");
 	numero2=s.nextInt();
 	if(numero2==1){
 		System.out.print("    *\n   ***\n  *****\n *******\n*********\n *******\n  *****\n   ***\n    *");	
@@ -157,10 +159,14 @@ if(numero1 == 1){
 	}
 	else if(numero2==5){
 		
+
 	}
+	else
+		System.out.println("El numero ingresado no esta en el rango");
 }
+
 else if(numero1==2){
-System.out.println("Escoja un numero del 6 al 15 ");
+System.out.println("Escoja el numero del problema que desee del 6 al 15 ");
 	numero9= s.nextInt();
 if(numero9==6){
 	System.out.println("Ingrese dos numeros y uno de estos caracteres\ns para sumar los dos numeros\nr para la resta entre los dos numeros\nm para multiplicar los dos numeros\nd para dividir los dos numeros\n");
@@ -630,13 +636,17 @@ else if(numero9==9){
 	
 }
 else if(numero9==10){
-	System.out.println("Ingrese un numero: ");
-	numero16=s.nextInt();
-	for(int z=1;z<=numero16;z++){
-		System.out.print("1");
-	}
-		System.out.print("\n");
-		
+	System.out.println("Ingrese el numero: ");
+		numero16=s.nextInt();	
+			for(int x=1;x<=numero16;x++){
+				for(int y=0;y<x;y++){
+					System.out.print(x);
+				}
+					System.out.println();
+				
+			}
+
+	
 	
 	
 	
@@ -646,18 +656,41 @@ else if(numero9==11){
 }
 else if(numero9==12){
 	
+	
 }
 else if(numero9==13){
 	
 }
 else if(numero9==14){
-	
-	
-}
+	System.out.println("Ingrese un nummero de elementos n para crear un cuadrado con ese numero: ");
+	numero17=s.nextInt();
+	for(int q=1;q<=numero17;q++){
+		System.out.print("* ");		
+	}
+	System.out.println();
+	for (int e=2;e<numero17;e++) {
+		System.out.print("* ");
+		
+		for (int r=2; r<=numero17-1;r++) {
+			System.out.print("  ");
+			if (r==(numero17-1)){ 
+				System.out.println("*");
+		}
+		}
+		
+	}		
+	for(int w=1;w<=numero17;w++){
+	System.out.print("* ");
+		}
+	}
+
 else if(numero9==15){
 	
 }
+else
+	System.out.println("El numero ingresado no esta en el rango");
 }
+
 
 else
 	System.out.println("El numero no es 1 o 2");
